@@ -7,7 +7,7 @@ export const projects = [
         tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.IO", "GenAI"],
         description: "Gen-AI enabled exam platform featuring automated delivery and 30-sec autosave.",
         fullDescription: "AI-assisted subjective grading system that cuts manual evaluation time by 70%. Implemented secure RBAC and real-time monitoring with Socket.IO powering 100+ concurrent exam sessions.",
-        liveHref: "#",
+        liveHref: "https://ai-based-exam-evaluation-system.vercel.app/",
         codeHref: "#"
     },
     {
@@ -18,7 +18,7 @@ export const projects = [
         tech: ["HTML", "Tailwind CSS", "JavaScript", "PHP", "MySQL"],
         description: "Full-stack mood-based music streaming platform with personalized playlists.",
         fullDescription: "Implemented dynamic mood-based playlist generation and YouTube-based song uploads. Features a responsive in-browser music player and secure authentication.",
-        liveHref: "#",
+        liveHref: "https://music-streaming-pearl.vercel.app/",
         codeHref: "#"
     }
 ];

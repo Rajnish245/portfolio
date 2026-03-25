@@ -24,7 +24,7 @@ const Certificates = () => {
             title: "C++ Programming",
             issuer: "CSE PATHSALA",
             id: "",
-            link: "#",
+            link: "https://docs.google.com/document/d/1-mZPFqWm4b6DnOV8CB4KO1oi_nKDjZ-IH-QoNVTY-Es/edit?tab=t.0",
             date: "Jul'24",
             icon: <AcademicCapIcon className="w-6 h-6" />,
             color: "from-blue-theme to-cyan-theme",
@@ -37,7 +37,7 @@ const Certificates = () => {
             title: "API Beginner",
             issuer: "Postman",
             id: "",
-            link: "#",
+            link: "https://verify.skilljar.com/c/mpb3f76pne29",
             date: "Mar'26",
             icon: <TrophyIcon className="w-6 h-6" />,
             color: "from-cyan-theme to-blue-theme",
@@ -161,15 +161,14 @@ const Certificates = () => {
                                                 </span>
                                             )}
                                             <MagneticWrapper>
-                                                <button 
-                                                    onClick={() => {
-                                                        setSelectedCert(item);
-                                                        setShowViewer(true);
-                                                    }}
-                                                    className="px-6 py-2 bg-gradient-to-r from-blue-theme to-cyan-theme text-white rounded-xl font-bold uppercase tracking-wider text-[10px] hover:translate-x-2 transition-all duration-500"
+                                                <a 
+                                                    href={item.link}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="px-6 py-2 bg-gradient-to-r from-blue-theme to-cyan-theme text-white rounded-xl font-bold uppercase tracking-wider text-[10px] hover:translate-x-2 transition-all duration-500 inline-block focus:outline-none focus:ring-2 focus:ring-cyan-theme"
                                                 >
-                                                    Unveil View
-                                                </button>
+                                                    SHOW CERTIFICATE
+                                                </a>
                                             </MagneticWrapper>
                                         </div>
                                     </div>
@@ -236,15 +235,14 @@ const Certificates = () => {
                                                 </span>
                                             )}
                                             <MagneticWrapper>
-                                                <button 
-                                                    onClick={() => {
-                                                        setSelectedCert(cert);
-                                                        setShowViewer(true);
-                                                    }}
-                                                    className="px-6 py-2 bg-gradient-to-r from-blue-theme to-cyan-theme text-white rounded-xl font-bold uppercase tracking-wider text-[10px] hover:translate-x-2 transition-all duration-500"
+                                                <a 
+                                                    href={cert.link}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="px-6 py-2 bg-gradient-to-r from-blue-theme to-cyan-theme text-white rounded-xl font-bold uppercase tracking-wider text-[10px] hover:translate-x-2 transition-all duration-500 inline-block focus:outline-none focus:ring-2 focus:ring-cyan-theme"
                                                 >
-                                                    Inspect View
-                                                </button>
+                                                    SHOW CERTIFICATE
+                                                </a>
                                             </MagneticWrapper>
                                         </div>
                                     </div>
